@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_videos">
+
+    <fragment
+        android:id="@+id/navigation_videos"
+        android:name="com.anu.mediaplayer.ui.theme.mediaplayer.VideosFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="com.anu.mediaplayer.ui.theme.mediaplayer.MusicFragment">
+    </fragment>
+
+</navigation>
